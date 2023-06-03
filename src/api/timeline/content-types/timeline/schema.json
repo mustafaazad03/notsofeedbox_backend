@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "timelines",
+  "info": {
+    "singularName": "timeline",
+    "pluralName": "timelines",
+    "displayName": "Timeline"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "timeline_title": {
+      "type": "string"
+    },
+    "timeline_desc": {
+      "type": "richtext"
+    }
+  }
+}
