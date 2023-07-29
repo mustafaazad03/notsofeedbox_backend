@@ -11,11 +11,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "timeline_title": {
-      "type": "string"
+    "title": {
+      "type": "string",
+      "required": true
     },
-    "timeline_desc": {
-      "type": "richtext"
+    "description": {
+      "type": "string",
+      "required": true
     }
   }
 }

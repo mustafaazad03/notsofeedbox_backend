@@ -11,16 +11,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "month": {
-      "type": "string"
+    "Day": {
+      "type": "string",
+      "required": true
     },
-    "date": {
-      "type": "string"
+    "Date": {
+      "type": "string",
+      "required": true
     },
-    "title_event": {
-      "type": "string"
+    "title": {
+      "type": "string",
+      "required": true
     },
-    "location": {
+    "description": {
       "type": "string"
     }
   }

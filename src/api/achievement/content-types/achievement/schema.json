@@ -11,21 +11,21 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title_achievement": {
-      "type": "string"
-    },
-    "desc_achievement": {
-      "type": "text"
-    },
-    "image": {
+    "img": {
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
     }
   }
 }

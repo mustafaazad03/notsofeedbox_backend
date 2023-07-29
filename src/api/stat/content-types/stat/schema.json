@@ -11,11 +11,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "stat_value": {
-      "type": "biginteger"
+    "figure": {
+      "type": "string",
+      "required": true
     },
-    "stat_desc": {
-      "type": "string"
+    "type": {
+      "type": "string",
+      "required": true
     }
   }
 }
